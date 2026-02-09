@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>Add a Book</h1>
+
+<form method="post" action="MainServlet">
+  <table border="0" cellpadding="8" cellspacing="0">
+    <tr>
+      <td><label>ISBN Number :</label></td>
+      <td><input type="text" name="isbn"></td>
+    </tr>
+
+    <tr>
+      <td><label>Book Name :</label></td>
+      <td><input type="text" name="bookName"></td>
+    </tr>
+
+    <tr>
+      <td><label>Book Type :</label></td>
+      <td>
+        <select name="bookType">
+          <option>G</option>
+          <option>T</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td><label>Author Name :</label></td>
+      <td>
+        <select name="author">
+          <option>Paulo Coelho</option>
+          <option>RobinSharma</option>
+          <option>R.K.Narayan</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td><label>Book Cost :</label></td>
+      <td><input type="number" name="cost"></td>
+    </tr>
+  </table>
+      <input type="submit" name="operation" value="ADDBOOK">
+  
+</form>
+
+</body>
+</html>
