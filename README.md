@@ -30,7 +30,5 @@ How to Run:
 Create tables in Oracle 11g XE.
 Update database credentials in DBUtil.java.
 Deploy on Tomcat.
-Open:
-http://localhost:8080/Lms/Menu.html
 
 Developed by: Naveen Kumar S
